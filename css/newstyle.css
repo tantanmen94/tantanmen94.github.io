@@ -1,0 +1,134 @@
+h1 {
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 350%;
+  color:#3E8C76;
+  text-shadow: transparent;
+  text-decoration:underline;
+  font-style:italic;
+  /* text-shadow: black 2px 2px 3px; */
+  border-width: 1px;   /*not working*/
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+#par1 {
+  font-family: Lato, "inherit";
+  font-size: 15px;
+  font-weight: lighter;
+  font-style: italic;
+  text-transform: none;
+  text-decoration: 
+  color: #999 solid;
+  text-indent: +1em;
+  word-spacing: 5px;
+  margin-bottom: 1.5rem;
+}
+
+
+#par2 {
+    font-family: Lato, "inherit";
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: italic;
+    text-transform: none;
+    text-decoration: underline;
+    color: #999 solid;
+    text-indent:+1em;
+    word-spacing:5px;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    padding: 30px 20px 30px 20px;
+    border: dashed 5px#00ADB5;
+  }
+
+  #par3 {
+    font-family: Lato, "inherit";
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: italic;
+    text-transform: none;
+    text-decoration: line-through;
+    color: #999 solid;
+    text-indent:+1em;
+    word-spacing:5px;
+    margin-bottom: 1.5rem;
+    border: dotted 4px #3E8C76;
+    width: 200px;
+    height: 150px;
+    padding:20px;
+    overflow: scroll;
+    float:right;
+  }
+
+/* font-family: Lato,sans-serif;
+/* color reference https://www.barnesandnoble.com/ */
+
+
+h2{
+    font-family:inherit;
+    font: weight 400;
+    text-decoration: underline;
+    color: #FCFCD4;
+    text-shadow: black 1px 1px 1px;
+    text-align: left;
+    font-style:italic;
+}
+
+.mydiv li{
+    font-family:'Courier New', Courier, monospace;
+    font: weight ;
+    text-decoration: underline;
+    color:#999 solid
+    text-align: left;
+}
+.mydiv li a{
+  color:#999 solid;
+}
+/* <div class="mydiv">
+<h2>My Article List</h2>
+<ul>
+    <li><a href="#" target="_blank">My First Article</a></li>
+    <li><a href="#" >My Second Article</a></li>
+    <li><a href="#" >My Third Article</a></li>
+</ul> */
+
+table{
+  empty-cells: hide;
+  border-collapse: separate;
+  font-family: 'Courier New', Courier, monospace;
+  margin: auto;
+}
+img{
+  /* background: no-repeat center center;
+  height: 500px;
+  width: 500px; */
+  /* background-size: auto 100px; */
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  width:95%;                                            /* 横幅のサイズを指定  */
+  height:600px;  
+  background-position:center bottom;
+  padding: 20px 20px 50px 20px;
+}
+
+body {
+  background-image: url(../images/sand.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+ol li{
+  list-style: lower-alpha;
+}
+
+ul li{
+  list-style: square inside;
+}
+
+#par1{
+  clear:none;
+}

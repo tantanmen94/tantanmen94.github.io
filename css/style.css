@@ -1,0 +1,107 @@
+/* h2 {
+  color: green;
+} */
+
+body {
+  /* background-image: url(../images/Me.jpg); */
+  background-size: 200px 100px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: scroll;
+}
+.subtitle {
+  color: maroon;
+}
+#title {
+  color: pink;
+}
+h1.head1 {
+  color: purple;
+}
+
+h1 {
+  color: saddlebrown;
+}
+ol li {
+  list-style-type: upper-alpha;
+}
+ul li {
+  /* color: skyblue; */
+  /* list-style-position: inside;
+  /* border: solid 2px black; */
+  /* list-style: square inside;
+  text-align: center; */
+} */
+.numbers li {
+  color: tomato;
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: overline underline;
+  line-height: 150%;
+  /* background-color: chocolate; */
+}
+#par2 {
+  text-align: justify;
+  text-shadow: black 3px 4px 5px;
+  text-indent: 20px;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  border: solid 3px black;
+  padding: 50px 20px 40px 70px;
+  margin: 30px 50px 60px 100px;
+  box-sizing: border-box;
+}
+
+#par3 {
+  border: dashed 4px black;
+  width: 200px;
+  height: 200px;
+  overflow: scroll;
+}
+
+table {
+  empty-cells: hide;
+  border-collapse: collapse;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  float:right;
+}
+
+.parent{
+  background-color: pink;
+  font-size: 20px;
+  /* height:1200px; */
+}
+.one{
+  background-color: royalblue;
+  font-size:50px;
+  left: 50px;
+  top:40px;
+  /* position: relative; */
+/* position: absolute; */
+position:relative;
+z-index:3;
+}
+
+.two{
+  background-color: saddlebrown;
+  font-size:50px;
+  z-index: 5;
+  position: relative;
+}
+.three{
+  background-color:slateblue;
+  font-size:50px;
+}
+
+ul li{
+  display:none;
+}
